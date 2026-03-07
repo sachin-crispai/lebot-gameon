@@ -1,0 +1,16 @@
+name: lebot-gameon
+description: "LEBOT plays Tic-Tac-Toe — a game environment where a robot arm competes against humans"
+version: "0.1.0"
+
+environment:
+  type: game
+  entry_point: server.tictactoe_env:TicTacToeEnvironment
+
+server:
+  host: "0.0.0.0"
+  port: 8000
+  dockerfile: server/Dockerfile
+
+web_interface:
+  enabled: true
+  static_dir: web/static
