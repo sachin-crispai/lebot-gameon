@@ -1,0 +1,12 @@
+# Copilot Instructions
+
+Read `AGENTS.md` at the repo root for full project context, architecture, and conventions.
+
+Key points:
+- Python 3.13+, uv package manager, OpenEnv framework
+- Game logic in `games/` is pure Python — no framework imports
+- Players are async (`async def get_move`)
+- Board is `list[9]`: `None`, `"X"`, or `"O"`
+- OpenEnv API: `reset()`, `step(action)`, `state()`
+- Run tests: `PYTHONPATH=. uv run pytest tests/ -v`
+- Check `gh issue list` and `gh pr list` before starting work

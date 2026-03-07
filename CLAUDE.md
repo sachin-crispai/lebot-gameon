@@ -2,6 +2,11 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Multi-Agent Development
+
+This repo supports parallel development by multiple LLM agents. Read `AGENTS.md` for the full onboarding guide, repo map, conventions, and conflict-avoidance rules. Always check `gh issue list` and `gh pr list` before starting work.
+
+
 ## Project Overview
 
 **lebot-gameon** is a Tic-Tac-Toe game environment built on [OpenEnv](https://github.com/meta-pytorch/OpenEnv) for the Cerebral Valley Hackathon. A LEBOT robot arm plays as both an AI opponent and a physical robot player.
