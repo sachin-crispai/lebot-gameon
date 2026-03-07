@@ -1,0 +1,22 @@
+[project]
+name = "lebot-gameon"
+version = "0.1.0"
+description = "LEBOT robot plays Tic-Tac-Toe using OpenEnv — Cerebral Valley Hackathon"
+requires-python = ">=3.13"
+dependencies = [
+    "openenv-core",
+    "fastapi",
+    "uvicorn[standard]",
+    "websockets",
+]
+
+[project.optional-dependencies]
+robot = ["lerobot"]
+dev = ["pytest", "pytest-asyncio", "httpx"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["games", "players", "server"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
