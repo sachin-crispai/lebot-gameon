@@ -1,0 +1,15 @@
+ports:
+  - id: ewuenj
+    name: jupyter
+    internalPort: 8888
+    protocol: HTTP
+    public: true
+    security:
+      credentials: []
+      policies: []
+      sso: {}
+    domains: []
+    disableNfDomain: false
+    dns: jupyter--lebot-gameon-jupyter--k5y6xz4rg776.code.run
+    advancedOptions: null
+

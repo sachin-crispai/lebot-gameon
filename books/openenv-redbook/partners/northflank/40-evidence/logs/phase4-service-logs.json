@@ -1,0 +1,402 @@
+[
+ {
+  "containerId": "lebot-gameon-jupyter-54567f67c-25nhb",
+  "log": "2026-03-08T17:31:15.216562272Z stdout F [2026-03-08T17:31:15Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:31:15.341Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-54567f67c-25nhb",
+  "log": "2026-03-08T17:31:15.215369237Z stdout F [2026-03-08T17:31:15Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:31:15.341Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-54567f67c-25nhb",
+  "log": "2026-03-08T17:31:15.215121616Z stdout F [2026-03-08T17:31:15Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:31:15.341Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-54567f67c-25nhb",
+  "log": "2026-03-08T17:31:15.215045803Z stdout F [2026-03-08T17:31:15Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:31:15.341Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-54567f67c-25nhb",
+  "log": "2026-03-08T17:30:59.620946047Z stdout F [2026-03-08T17:30:59Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:30:59.922Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-54567f67c-25nhb",
+  "log": "2026-03-08T17:30:59.619735339Z stdout F [2026-03-08T17:30:59Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:30:59.922Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-54567f67c-25nhb",
+  "log": "2026-03-08T17:30:58.61445661Z stdout F [2026-03-08T17:30:58Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:30:59.922Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-54567f67c-25nhb",
+  "log": "2026-03-08T17:30:59.619546539Z stdout F [2026-03-08T17:30:59Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:30:59.922Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-54567f67c-25nhb",
+  "log": "2026-03-08T17:30:59.61947374Z stdout F [2026-03-08T17:30:59Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:30:59.922Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-54567f67c-25nhb",
+  "log": "2026-03-08T17:30:58.613180065Z stdout F [2026-03-08T17:30:58Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:30:59.922Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-54567f67c-25nhb",
+  "log": "2026-03-08T17:30:58.612983764Z stdout F [2026-03-08T17:30:58Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:30:59.922Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-54567f67c-25nhb",
+  "log": "2026-03-08T17:30:58.612918289Z stdout F [2026-03-08T17:30:58Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:30:59.922Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:30:06.467407543Z stdout F [2026-03-08T17:30:06Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:30:06.607Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:30:06.466137067Z stdout F [2026-03-08T17:30:06Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:30:06.607Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:30:06.465932309Z stdout F [2026-03-08T17:30:06Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:30:06.607Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:30:06.46586514Z stdout F [2026-03-08T17:30:06Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:30:06.607Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:29:16.464801161Z stdout F [2026-03-08T17:29:16Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:29:16.567Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:29:16.463466377Z stdout F [2026-03-08T17:29:16Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:29:16.567Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:29:16.463262566Z stdout F [2026-03-08T17:29:16Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:29:16.567Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:29:16.463207434Z stdout F [2026-03-08T17:29:16Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:29:16.567Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:28:49.419250892Z stdout F [2026-03-08T17:28:49Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:28:49.563Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:28:49.417980177Z stdout F [2026-03-08T17:28:49Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:28:49.563Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:28:49.417793738Z stdout F [2026-03-08T17:28:49Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:28:49.563Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:28:49.417711059Z stdout F [2026-03-08T17:28:49Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:28:49.563Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:28:37.032299717Z stdout F [2026-03-08T17:28:37Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:28:37.146Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:28:37.031044486Z stdout F [2026-03-08T17:28:37Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:28:37.146Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:28:37.030842019Z stdout F [2026-03-08T17:28:37Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:28:37.146Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:28:37.030770801Z stdout F [2026-03-08T17:28:37Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:28:37.146Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:28:35.747869523Z stdout F [2026-03-08T17:28:35Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:28:36.578Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:28:35.746811995Z stdout F [2026-03-08T17:28:35Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:28:36.578Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:28:35.746188859Z stdout F [2026-03-08T17:28:35Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:28:36.578Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-5476bb8856-hwn48",
+  "log": "2026-03-08T17:28:35.746091117Z stdout F [2026-03-08T17:28:35Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:28:36.578Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-7777575b88-8mcpd",
+  "log": "2026-03-08T17:27:46.194384144Z stdout F [2026-03-08T17:27:46Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:27:46.299Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-7777575b88-8mcpd",
+  "log": "2026-03-08T17:27:46.193031715Z stdout F [2026-03-08T17:27:46Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:27:46.299Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-7777575b88-8mcpd",
+  "log": "2026-03-08T17:27:46.192820821Z stdout F [2026-03-08T17:27:46Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:27:46.299Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-7777575b88-8mcpd",
+  "log": "2026-03-08T17:27:46.192773784Z stdout F [2026-03-08T17:27:46Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:27:46.299Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-7777575b88-8mcpd",
+  "log": "2026-03-08T17:27:19.175961809Z stdout F [2026-03-08T17:27:19Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:27:19.297Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-7777575b88-8mcpd",
+  "log": "2026-03-08T17:27:19.174668011Z stdout F [2026-03-08T17:27:19Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:27:19.297Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-7777575b88-8mcpd",
+  "log": "2026-03-08T17:27:19.174469566Z stdout F [2026-03-08T17:27:19Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:27:19.297Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-7777575b88-8mcpd",
+  "log": "2026-03-08T17:27:19.174423097Z stdout F [2026-03-08T17:27:19Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:27:19.297Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-7777575b88-8mcpd",
+  "log": "2026-03-08T17:27:05.105803065Z stdout F [2026-03-08T17:27:05Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:27:05.210Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-7777575b88-8mcpd",
+  "log": "2026-03-08T17:27:05.104533915Z stdout F [2026-03-08T17:27:05Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:27:05.210Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-7777575b88-8mcpd",
+  "log": "2026-03-08T17:27:05.104352447Z stdout F [2026-03-08T17:27:05Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:27:05.210Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-7777575b88-8mcpd",
+  "log": "2026-03-08T17:27:05.1042753Z stdout F [2026-03-08T17:27:05Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:27:05.210Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-7777575b88-8mcpd",
+  "log": "2026-03-08T17:27:04.454563907Z stdout F [2026-03-08T17:27:04Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:27:04.922Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-7777575b88-8mcpd",
+  "log": "2026-03-08T17:27:04.453260226Z stdout F [2026-03-08T17:27:04Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:27:04.922Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-7777575b88-8mcpd",
+  "log": "2026-03-08T17:27:04.453053272Z stdout F [2026-03-08T17:27:04Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:27:04.922Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-7777575b88-8mcpd",
+  "log": "2026-03-08T17:27:04.452981803Z stdout F [2026-03-08T17:27:04Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:27:04.922Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:26:05.258469349Z stdout F [2026-03-08T17:26:05Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:26:05.372Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:26:05.257292421Z stdout F [2026-03-08T17:26:05Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:26:05.372Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:26:05.257153833Z stdout F [2026-03-08T17:26:05Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:26:05.372Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:26:05.257098063Z stdout F [2026-03-08T17:26:05Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:26:05.372Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:20:59.243929336Z stdout F [2026-03-08T17:20:59Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:20:59.372Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:20:59.24254508Z stdout F [2026-03-08T17:20:59Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:20:59.372Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:20:59.242390951Z stdout F [2026-03-08T17:20:59Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:20:59.372Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:20:59.242342222Z stdout F [2026-03-08T17:20:59Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:20:59.372Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:18:11.276166799Z stdout F [2026-03-08T17:18:11Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:18:11.376Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:18:11.274835772Z stdout F [2026-03-08T17:18:11Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:18:11.376Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:18:11.274668524Z stdout F [2026-03-08T17:18:11Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:18:11.376Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:18:11.274608084Z stdout F [2026-03-08T17:18:11Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:18:11.376Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:16:43.276543449Z stdout F [2026-03-08T17:16:43Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:16:43.373Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:16:43.275258953Z stdout F [2026-03-08T17:16:43Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:16:43.373Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:16:43.275106624Z stdout F [2026-03-08T17:16:43Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:16:43.373Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:16:43.275059215Z stdout F [2026-03-08T17:16:43Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:16:43.373Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:15:51.270474748Z stdout F [2026-03-08T17:15:51Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:15:51.373Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:15:51.269207551Z stdout F [2026-03-08T17:15:51Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:15:51.373Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:15:51.269152901Z stdout F [2026-03-08T17:15:51Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:15:51.373Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:15:51.269052522Z stdout F [2026-03-08T17:15:51Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:15:51.373Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:15:24.28729083Z stdout F [2026-03-08T17:15:24Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:15:24.377Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:15:24.286130961Z stdout F [2026-03-08T17:15:24Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:15:24.377Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:15:24.285932913Z stdout F [2026-03-08T17:15:24Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:15:24.377Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:15:24.285876294Z stdout F [2026-03-08T17:15:24Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:15:24.377Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:15:07.653164916Z stdout F [2026-03-08T17:15:07Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:15:07.759Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:15:07.652003438Z stdout F [2026-03-08T17:15:07Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:15:07.759Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:15:07.651852679Z stdout F [2026-03-08T17:15:07Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:15:07.759Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:15:07.6518096Z stdout F [2026-03-08T17:15:07Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:15:07.759Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:15:07.16745952Z stdout F [2026-03-08T17:15:07Z INFO ] Process terminated with exit code 0",
+  "ts": "2026-03-08T17:15:07.278Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:15:07.166094713Z stdout F [2026-03-08T17:15:07Z INFO ] Starting container entrypoint...",
+  "ts": "2026-03-08T17:15:07.278Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:15:07.165916105Z stdout F [2026-03-08T17:15:07Z INFO ] Successfully fetched environment variables.",
+  "ts": "2026-03-08T17:15:07.278Z"
+ },
+ {
+  "containerId": "lebot-gameon-jupyter-859c499749-4rvqd",
+  "log": "2026-03-08T17:15:07.165855976Z stdout F [2026-03-08T17:15:07Z INFO ] Securely fetching environment variables...",
+  "ts": "2026-03-08T17:15:07.278Z"
+ }
+]

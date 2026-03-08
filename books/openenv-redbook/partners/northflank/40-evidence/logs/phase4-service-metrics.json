@@ -1,0 +1,9 @@
+{
+ "cpu": {
+  "metricInfo": {
+   "metricId": "cpu",
+   "metricUnit": "pct"
+  },
+  "values": []
+ }
+}

@@ -19,7 +19,7 @@ Requested source:
 ## Archived PDF (Captured)
 
 - File: `Northflank Docs _ OpenEnv Hackathon.pdf`
-- Location: `books/openenv-redbook/partners/northflank/`
+- Location: `books/openenv-redbook/partners/northflank/00-sources/`
 - Provenance: generated from Atlas Browser using **Print -> Save as PDF**.
 - Purpose: preserve readable offline instructions from the Northflank Notion page.
 

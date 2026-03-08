@@ -1,0 +1,71 @@
+{
+ "id": "lebot-gameon-jupyter",
+ "projectId": "hackathon",
+ "tags": [],
+ "name": "lebot-gameon-jupyter",
+ "appId": "/openenv-hack-89/hackathon/lebot-gameon-jupyter",
+ "description": "",
+ "billing": {
+  "deploymentPlan": "nf-gpu-hack-16-32"
+ },
+ "disabledCD": false,
+ "serviceType": "deployment",
+ "deployment": {
+  "external": {
+   "registryProvider": "dockerhub",
+   "privateImage": false,
+   "imagePath": "pytorch/pytorch:2.8.0-cuda12.6-cudnn9-runtime"
+  },
+  "region": "meta-openenv",
+  "storage": {
+   "ephemeralStorage": {
+    "storageSize": 1024
+   },
+   "shmSize": 64
+  },
+  "docker": {
+   "configType": "default"
+  },
+  "buildpack": {
+   "configType": "default"
+  },
+  "instances": 1,
+  "imageUrl": "docker.io/pytorch/pytorch:2.8.0-cuda12.6-cudnn9-runtime"
+ },
+ "templateIds": [],
+ "createdAt": "2026-03-08T17:15:03.290Z",
+ "status": {
+  "deployment": {
+   "status": "COMPLETED",
+   "reason": "DEPLOYING",
+   "lastTransitionTime": "2026-03-08T17:28:35.955Z"
+  }
+ },
+ "ports": [
+  {
+   "id": "ewuenj",
+   "name": "jupyter",
+   "internalPort": 8888,
+   "protocol": "HTTP",
+   "public": true,
+   "security": {
+    "credentials": [],
+    "policies": [],
+    "sso": {}
+   },
+   "domains": [],
+   "disableNfDomain": false,
+   "dns": "jupyter--lebot-gameon-jupyter--k5y6xz4rg776.code.run",
+   "advancedOptions": null
+  }
+ ],
+ "servicePaused": false,
+ "cluster": {
+  "id": "nf-meta-openenv",
+  "name": "nf-meta-openenv",
+  "namespace": "ns-k5y6xz4rg776",
+  "loadBalancers": [
+   "lb.69a9b703bfc98a31f16dd3fe.northflank.com"
+  ]
+ }
+}

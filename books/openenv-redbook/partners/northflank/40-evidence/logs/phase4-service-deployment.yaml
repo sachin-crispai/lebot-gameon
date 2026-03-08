@@ -1,0 +1,15 @@
+external:
+  registryProvider: dockerhub
+  privateImage: false
+  imagePath: pytorch/pytorch:2.8.0-cuda12.6-cudnn9-runtime
+region: meta-openenv
+storage:
+  ephemeralStorage:
+    storageSize: 1024
+  shmSize: 64
+docker:
+  configType: default
+buildpack:
+  configType: default
+instances: 1
+
