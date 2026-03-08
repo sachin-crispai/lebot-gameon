@@ -96,6 +96,13 @@ gh pr list                                 # Check in-progress work
 gh pr create --title "..." --body "..."    # Open PR
 ```
 
+## Local UX Convention
+
+- The user uses **Skim** as the default document reader on macOS.
+- If the user says `skimread <file>` (or asks to "open in skim"), agents should run:
+  - `open -a Skim <file>`
+- Use this for PDFs and other Skim-supported docs unless the user explicitly asks for a different app.
+
 ## Current Status
 
 This is a hackathon project (Cerebral Valley OpenEnv Hackathon, March 2026). Speed matters. Ship working code, iterate fast, don't over-engineer.

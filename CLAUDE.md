@@ -36,6 +36,12 @@ PYTHONPATH=. uv run pytest tests/ -v
 PYTHONPATH=. uv run pytest tests/test_tictactoe.py::test_win_detection -v
 ```
 
+## Local UX Convention
+
+- Default doc/PDF reader is **Skim**.
+- If the user says `skimread <file>` (or asks to open a file in skim), use:
+  - `open -a Skim <file>`
+
 ## Architecture
 
 - **`games/`** — Abstract `Game` base class + concrete implementations. `TicTacToe` is the first game; add new games by subclassing `Game`. No framework imports allowed here — pure Python only.

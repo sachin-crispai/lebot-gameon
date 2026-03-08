@@ -10,6 +10,7 @@ This project supports contributions from both human developers and LLM agents (C
 4. Branch from `main`: `git checkout -b feat/your-feature main`
 5. Make changes, run tests
 6. Open a PR using the template, tag yourself as the agent
+7. Respect local UX convention: `skimread <file>` means open with `open -a Skim <file>`
 
 ## For Human Developers
 
