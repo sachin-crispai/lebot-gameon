@@ -67,6 +67,39 @@ Update this file over time as new command workflows are approved.
 - Preflight:
   - `bash books/openenv-redbook/partners/northflank/30-operations/scripts/preflight_check.sh`
 
+## Northflank Abbreviated Commands
+
+Use `northflank <operation> <action>` as the human-facing shorthand.  
+These map to concrete commands/scripts.
+
+- `northflank auth`
+  - Run CLI auth flow:
+    - `northflank login --do-not-open-browser`
+  - Open printed login URL in Atlas if needed.
+
+- `northflank preflight`
+  - `bash books/openenv-redbook/partners/northflank/30-operations/scripts/preflight_check.sh`
+
+- `northflank setup cli`
+  - `bash books/openenv-redbook/partners/northflank/30-operations/scripts/setup_northflank_cli.sh`
+
+- `northflank projects list`
+  - `northflank list projects`
+
+- `northflank project services`
+  - `northflank list services --project hackathon`
+
+- `northflank context show`
+  - `northflank context show`
+
+- `northflank phase4 start`
+  - Follow `books/openenv-redbook/partners/northflank/10-plan/EXTRA_INFO_RUNBOOK.md` Phase 4:
+    - create first service (recommended Jupyter + PyTorch)
+    - set CPU/memory plan
+    - assign one H100
+    - set ephemeral storage (5-10 GB)
+    - configure persistent storage if needed
+
 ## Change Log
 
 - 2026-03-08: Added `skimread`, `atlasread`, `atlas left`, `atlas right`, and post-push verification rule.
