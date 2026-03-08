@@ -96,6 +96,39 @@ gh pr list                                 # Check in-progress work
 gh pr create --title "..." --body "..."    # Open PR
 ```
 
+## OpenEnv Redbook Workflow
+
+- Redbook workspace: `books/openenv-redbook/`
+- Source PDFs directory: `books/openenv-redbook/sources/`
+- Partner resources directory: `books/openenv-redbook/partners/` (one folder per partner)
+- Ordering rule: prefix files with `01-`, `02-`, `03-`, etc.
+- Standard output: `books/openenv-redbook/openenv-redbook-a4.pdf`
+- Page standard: **A4 landscape** (`841.89 x 595.28 pt`) for all pages.
+
+Build command:
+
+```bash
+uv pip install --python .venv/bin/python pypdf
+./.venv/bin/python books/openenv-redbook/build_openenv_redbook.py
+```
+
+## Local UX Convention
+
+- The user uses **Skim** as the default document reader on macOS.
+- If the user says `skimread <file>` (or asks to "open in skim"), agents should run:
+  - `open -a Skim <file>`
+- Use this for PDFs and other Skim-supported docs unless the user explicitly asks for a different app.
+- If the user says `atlasread <url>`, agents should open the URL in Atlas:
+  - `open -a "ChatGPT Atlas.app" "<url>"`
+- If the user says `atlas left <website>`, agents should:
+  - open Atlas with the website using full path:
+    - `open -a "/Applications/ChatGPT Atlas.app" "<website>"`
+  - position Atlas window to left half via AppleScript.
+- If the user says `atlas right <website>`, agents should:
+  - open Atlas with the website using full path:
+    - `open -a "/Applications/ChatGPT Atlas.app" "<website>"`
+  - position Atlas window to right half via AppleScript.
+
 ## Current Status
 
 This is a hackathon project (Cerebral Valley OpenEnv Hackathon, March 2026). Speed matters. Ship working code, iterate fast, don't over-engineer.

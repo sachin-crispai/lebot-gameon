@@ -10,6 +10,9 @@ This project supports contributions from both human developers and LLM agents (C
 4. Branch from `main`: `git checkout -b feat/your-feature main`
 5. Make changes, run tests
 6. Open a PR using the template, tag yourself as the agent
+7. Respect local UX convention: `skimread <file>` means open with `open -a Skim <file>`
+8. Respect local UX convention: `atlasread <url>` means open with `open -a "ChatGPT Atlas.app" "<url>"`
+9. Respect local UX convention: `atlas left <website>` and `atlas right <website>` mean open Atlas via `/Applications/ChatGPT Atlas.app` and snap window to left/right half.
 
 ## For Human Developers
 
@@ -24,6 +27,7 @@ This project supports contributions from both human developers and LLM agents (C
 - **Don't break the API contract** — `reset()`, `step()`, `state()` signatures are stable
 - **Don't add deps without justification** — keep `pyproject.toml` lean
 - **Tag your work** — include which agent/human authored the change
+- **OpenEnv redbook standard** — build `books/openenv-redbook/openenv-redbook-a4.pdf` as A4 landscape from ordered source PDFs in `books/openenv-redbook/sources/`, and keep partner resources organized under `books/openenv-redbook/partners/`
 
 ## PR Checklist
 
