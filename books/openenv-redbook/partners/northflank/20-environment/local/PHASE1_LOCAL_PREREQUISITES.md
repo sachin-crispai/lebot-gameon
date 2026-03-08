@@ -25,11 +25,8 @@ Project target: `Hackathon`
 
 ## Next Action
 
-Run:
+Phase 1 is complete.
 
-```bash
-northflank login
-```
-
-Then continue with Phase 2 and Phase 3 checks from:
-- `10-plan/EXTRA_INFO_RUNBOOK.md`
+Proceed with:
+- member verification in Northflank UI (`navitha@crispai.com`)
+- Phase 4 service baseline checks from `10-plan/EXTRA_INFO_RUNBOOK.md`
