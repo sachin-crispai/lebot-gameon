@@ -100,6 +100,15 @@ These map to concrete commands/scripts.
     - set ephemeral storage (5-10 GB)
     - configure persistent storage if needed
 
+- `northflank phase4 status`
+  - `northflank get service --project hackathon --service lebot-gameon-jupyter --output json`
+
+- `northflank phase4 logs`
+  - `northflank get service logs --project hackathon --service lebot-gameon-jupyter --lineLimit 120 --output json`
+
+- `northflank phase4 endpoint`
+  - `curl -I -s https://jupyter--lebot-gameon-jupyter--k5y6xz4rg776.code.run`
+
 ## Change Log
 
 - 2026-03-08: Added `skimread`, `atlasread`, `atlas left`, `atlas right`, and post-push verification rule.

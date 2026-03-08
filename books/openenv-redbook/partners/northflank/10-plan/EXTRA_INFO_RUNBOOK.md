@@ -88,4 +88,7 @@ Storage locations:
 ## Current Status
 
 - CLI execution steps prepared.
-- Awaiting live account execution and membership verification (`navitha@crispai.com`).
+- Live account execution completed for phases 1-3.
+- Phase 4 baseline service created (`lebot-gameon-jupyter`) with GPU plan.
+- Phase 4 runtime is still blocked: service exits immediately and endpoint returns `503`.
+- Awaiting live membership verification (`navitha@crispai.com`) in Northflank UI.

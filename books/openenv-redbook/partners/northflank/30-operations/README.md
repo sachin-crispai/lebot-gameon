@@ -43,3 +43,11 @@ Checklist:
 5. Add persistent volume if model/data must survive restarts.
 6. If startup fails, set command/entrypoint override for debugging.
 7. Validate logs/metrics and service reachability.
+
+Useful checks after start:
+- `northflank phase4 status`
+  - `northflank get service --project hackathon --service lebot-gameon-jupyter --output json`
+- `northflank phase4 logs`
+  - `northflank get service logs --project hackathon --service lebot-gameon-jupyter --lineLimit 120 --output json`
+- `northflank phase4 endpoint`
+  - `curl -I -s https://jupyter--lebot-gameon-jupyter--k5y6xz4rg776.code.run`
