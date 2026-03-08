@@ -5,6 +5,7 @@ This repository is designed for parallel development by multiple LLM agents (Cla
 ## Quick Start for Any Agent
 
 1. **Read these files in order:** `AGENTS.md` (this file) → `CLAUDE.md` → `README.md`
+   - Also read `OPERATIONS_NOTEBOOK.md` for accepted runtime commands and operational procedures.
 2. **Check open issues:** `gh issue list` — pick an unassigned issue
 3. **Check open PRs:** `gh pr list` — avoid conflicting with in-progress work
 4. **Check recent history:** `git log --oneline -20` — understand what just happened

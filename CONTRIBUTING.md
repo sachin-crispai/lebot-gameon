@@ -5,15 +5,16 @@ This project supports contributions from both human developers and LLM agents (C
 ## For LLM Agents
 
 1. Read `AGENTS.md` first for full context
-2. Check `gh issue list` for available work
-3. Check `gh pr list` to avoid conflicts
-4. Branch from `main`: `git checkout -b feat/your-feature main`
-5. Make changes, run tests
-6. Open a PR using the template, tag yourself as the agent
-7. Respect local UX convention: `skimread <file>` means open with `open -a Skim <file>`
-8. Respect local UX convention: `atlasread <url>` means open with `open -a "ChatGPT Atlas.app" "<url>"`
-9. Respect local UX convention: `atlas left <website>` and `atlas right <website>` mean open Atlas via `/Applications/ChatGPT Atlas.app` and snap window to left/right half.
-10. After pushing, run `atlas left <file-url-from-pr>` on at least one checked-in file to confirm it is visible remotely.
+2. Follow `OPERATIONS_NOTEBOOK.md` for accepted operational command procedures
+3. Check `gh issue list` for available work
+4. Check `gh pr list` to avoid conflicts
+5. Branch from `main`: `git checkout -b feat/your-feature main`
+6. Make changes, run tests
+7. Open a PR using the template, tag yourself as the agent
+8. Respect local UX convention: `skimread <file>` means open with `open -a Skim <file>`
+9. Respect local UX convention: `atlasread <url>` means open with `open -a "ChatGPT Atlas.app" "<url>"`
+10. Respect local UX convention: `atlas left <website>` and `atlas right <website>` mean open Atlas via `/Applications/ChatGPT Atlas.app` and snap window to left/right half.
+11. After pushing, run `atlas left <file-url-from-pr>` on at least one checked-in file to confirm it is visible remotely.
 
 ## For Human Developers
 
