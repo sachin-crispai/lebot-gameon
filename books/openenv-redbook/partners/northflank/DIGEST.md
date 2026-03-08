@@ -47,3 +47,9 @@ Source:
 ## Constraint to Keep in Mind
 
 - By default, teams get one H100 and one GPU service; ask organizers if extra capacity is needed.
+
+## Execution Artifacts
+
+- Runbook: `EXTRA_INFO_RUNBOOK.md`
+- CLI setup script: `scripts/setup_northflank_cli.sh`
+- Preflight script: `scripts/preflight_check.sh`
