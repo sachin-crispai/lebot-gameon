@@ -25,6 +25,7 @@ This project supports contributions from both human developers and LLM agents (C
 - **Don't break the API contract** — `reset()`, `step()`, `state()` signatures are stable
 - **Don't add deps without justification** — keep `pyproject.toml` lean
 - **Tag your work** — include which agent/human authored the change
+- **OpenEnv redbook standard** — build `books/openenv-redbook/openenv-redbook-a4.pdf` as A4 landscape from ordered source PDFs in `books/openenv-redbook/sources/`
 
 ## PR Checklist
 

@@ -36,6 +36,18 @@ PYTHONPATH=. uv run pytest tests/ -v
 PYTHONPATH=. uv run pytest tests/test_tictactoe.py::test_win_detection -v
 ```
 
+## OpenEnv Redbook Workflow
+
+- Place source PDFs in `books/openenv-redbook/sources/` with numeric prefixes for order.
+- Build `books/openenv-redbook/openenv-redbook-a4.pdf` using:
+
+```bash
+uv pip install --python .venv/bin/python pypdf
+./.venv/bin/python books/openenv-redbook/build_openenv_redbook.py
+```
+
+- Redbook page size standard: **A4 landscape** (`841.89 x 595.28 pt`) for every page.
+
 ## Local UX Convention
 
 - Default doc/PDF reader is **Skim**.

@@ -96,6 +96,21 @@ gh pr list                                 # Check in-progress work
 gh pr create --title "..." --body "..."    # Open PR
 ```
 
+## OpenEnv Redbook Workflow
+
+- Redbook workspace: `books/openenv-redbook/`
+- Source PDFs directory: `books/openenv-redbook/sources/`
+- Ordering rule: prefix files with `01-`, `02-`, `03-`, etc.
+- Standard output: `books/openenv-redbook/openenv-redbook-a4.pdf`
+- Page standard: **A4 landscape** (`841.89 x 595.28 pt`) for all pages.
+
+Build command:
+
+```bash
+uv pip install --python .venv/bin/python pypdf
+./.venv/bin/python books/openenv-redbook/build_openenv_redbook.py
+```
+
 ## Local UX Convention
 
 - The user uses **Skim** as the default document reader on macOS.
