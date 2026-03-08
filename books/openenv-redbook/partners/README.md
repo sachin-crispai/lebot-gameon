@@ -33,3 +33,7 @@ Northflank-specific source requested by user:
 Current status:
 - Notion page appears non-public (`publicAccessRole: none`) from API checks on 2026-03-08.
 - See `northflank/INSTRUCTIONS.md` for details and fallback links.
+
+## Workspace Standard
+
+- Use `PARTNER_WORKSPACE_TEMPLATE.md` to create consistent partner folders as new integrations are added.

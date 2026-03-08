@@ -1,7 +1,7 @@
 # Northflank Redbook Digest
 
 Source:
-- `Northflank Docs _ OpenEnv Hackathon.pdf`
+- `00-sources/Northflank Docs _ OpenEnv Hackathon.pdf`
 - Captured from Atlas Browser (Print -> Save as PDF)
 
 ## Quick Start
@@ -50,6 +50,6 @@ Source:
 
 ## Execution Artifacts
 
-- Runbook: `EXTRA_INFO_RUNBOOK.md`
-- CLI setup script: `scripts/setup_northflank_cli.sh`
-- Preflight script: `scripts/preflight_check.sh`
+- Runbook: `10-plan/EXTRA_INFO_RUNBOOK.md`
+- CLI setup script: `30-operations/scripts/setup_northflank_cli.sh`
+- Preflight script: `30-operations/scripts/preflight_check.sh`

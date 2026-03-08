@@ -20,7 +20,7 @@ Get a working Northflank CLI workflow for the `lebot-gameon` team and establish 
 - `northflank --version`
 
 Use helper script:
-- `bash books/openenv-redbook/partners/northflank/scripts/setup_northflank_cli.sh`
+- `bash books/openenv-redbook/partners/northflank/30-operations/scripts/setup_northflank_cli.sh`
 
 ## Phase 2: Authentication
 
@@ -80,6 +80,10 @@ For each run, save in this folder:
 - timestamped command output snippets
 - screenshots of team/project visibility
 - notes on blockers + resolutions
+
+Storage locations:
+- logs: `books/openenv-redbook/partners/northflank/40-evidence/logs/`
+- screenshots: `books/openenv-redbook/partners/northflank/40-evidence/screenshots/`
 
 ## Current Status
 
