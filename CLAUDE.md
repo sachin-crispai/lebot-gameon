@@ -73,6 +73,7 @@ uv pip install --python .venv/bin/python pypdf
 - Post-push verification: always perform an `atlas left` open on at least one file URL that was part of the pushed/merged PR.
 - `sync_operations`: when the user says this, update `OPERATIONS_NOTEBOOK.md` and this file to reflect any new commands used in the session. See `OPERATIONS_NOTEBOOK.md` for full procedure.
 - `refresh_operations`: when the user says this, re-read `OPERATIONS_NOTEBOOK.md` and this file, summarize operational deltas vs `HEAD`, and confirm active aliases/command mappings before continuing.
+- `checkin`: synonym for "everything looks good". Runs sync_operations, commits changes, creates/comments on PR and issue, checks consistency, runs relevant tests. See `OPERATIONS_NOTEBOOK.md` for full procedure.
 
 ## Architecture
 

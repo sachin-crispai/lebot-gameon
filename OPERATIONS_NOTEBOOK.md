@@ -110,6 +110,20 @@ Update this file over time as new command workflows are approved.
 - Never use side-by-side diff mode.
 - Keep diff output compact — one fenced code block, not split panels.
 
+### checkin
+`checkin` means "everything looks good — wrap it up". When the user says `checkin`, Claude should:
+1. Run `sync_operations` to flush any undocumented commands from the session.
+2. Commit all staged/unstaged changes with a conventional commit message.
+3. Check `gh issue list` and `gh pr list` — create issue and/or PR if none exist for the current work.
+4. Add a summary comment to the open PR and linked issue describing what changed.
+5. Check consistency between `OPERATIONS_NOTEBOOK.md` and `CLAUDE.md`.
+6. Run relevant tests (`test_skim` for Skim workflows, `pytest` for code changes).
+7. Log the checkin in the Change Log.
+
+### Fix Verification Rule
+- After any fix, always verify it by running the relevant command.
+- For Skim-related fixes, this means running `test_skim` and confirming clean output.
+
 ### Notebook Hygiene
 - Keep this notebook synchronized with the latest user workflow preferences, accepted commands, and operational best practices.
 - After any new command is used and confirmed working, run `sync_operations` to record it.
@@ -133,3 +147,5 @@ Update this file over time as new command workflows are approved.
 - 2026-03-08: Added explicit productivity preference: Skim workflows use separate windows, not tabs.
 - 2026-03-08: Added `test_skim` command for end-to-end split-window validation (`mastra` left, `bible` right) during monitor changes.
 - 2026-03-08: Added `refresh_operations` command so agents can reload and confirm the latest operations context on demand.
+- 2026-03-08: Fixed AppleScript boolean-to-string coercion bug in test_skim verify step. Added Fix Verification Rule: always run test_skim after Skim-related fixes.
+- 2026-03-08: Defined `checkin` command as the standard wrap-up workflow (sync, commit, PR/issue, comments, consistency check, tests).
