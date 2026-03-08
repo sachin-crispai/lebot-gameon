@@ -39,6 +39,7 @@ PYTHONPATH=. uv run pytest tests/test_tictactoe.py::test_win_detection -v
 ## OpenEnv Redbook Workflow
 
 - Place source PDFs in `books/openenv-redbook/sources/` with numeric prefixes for order.
+- Keep partner resources in `books/openenv-redbook/partners/` with one folder per partner.
 - Build `books/openenv-redbook/openenv-redbook-a4.pdf` using:
 
 ```bash

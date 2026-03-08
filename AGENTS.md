@@ -100,6 +100,7 @@ gh pr create --title "..." --body "..."    # Open PR
 
 - Redbook workspace: `books/openenv-redbook/`
 - Source PDFs directory: `books/openenv-redbook/sources/`
+- Partner resources directory: `books/openenv-redbook/partners/` (one folder per partner)
 - Ordering rule: prefix files with `01-`, `02-`, `03-`, etc.
 - Standard output: `books/openenv-redbook/openenv-redbook-a4.pdf`
 - Page standard: **A4 landscape** (`841.89 x 595.28 pt`) for all pages.

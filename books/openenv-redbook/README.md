@@ -32,3 +32,8 @@ uv pip install --python .venv/bin/python pypdf
 1. Add the new PDF to `books/openenv-redbook/sources/` with the next numeric prefix.
 2. Re-run the build command.
 3. Commit both the source PDF and regenerated `openenv-redbook-a4.pdf`.
+
+## Partner Resources
+
+- Partner-specific resources are tracked in `books/openenv-redbook/partners/`.
+- See `books/openenv-redbook/partners/README.md` for full index and per-partner folders.
