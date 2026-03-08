@@ -9,7 +9,7 @@ Project target: `Hackathon`
 - [x] Node.js available
 - [x] npm available
 - [x] Northflank CLI installed
-- [ ] Northflank CLI authenticated (`northflank login`)
+- [x] Northflank CLI authenticated (`northflank login`)
 
 ## Observed Versions
 
