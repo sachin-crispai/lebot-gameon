@@ -13,6 +13,7 @@ This project supports contributions from both human developers and LLM agents (C
 7. Respect local UX convention: `skimread <file>` means open with `open -a Skim <file>`
 8. Respect local UX convention: `atlasread <url>` means open with `open -a "ChatGPT Atlas.app" "<url>"`
 9. Respect local UX convention: `atlas left <website>` and `atlas right <website>` mean open Atlas via `/Applications/ChatGPT Atlas.app` and snap window to left/right half.
+10. After pushing, run `atlas left <file-url-from-pr>` on at least one checked-in file to confirm it is visible remotely.
 
 ## For Human Developers
 

@@ -58,6 +58,7 @@ uv pip install --python .venv/bin/python pypdf
   - `open -a "ChatGPT Atlas.app" "<url>"`
 - If the user says `atlas left <website>`, open with full app path and place Atlas on left half.
 - If the user says `atlas right <website>`, open with full app path and place Atlas on right half.
+- Post-push verification: always perform an `atlas left` open on at least one file URL that was part of the pushed/merged PR.
 
 ## Architecture
 

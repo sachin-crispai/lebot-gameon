@@ -128,6 +128,7 @@ uv pip install --python .venv/bin/python pypdf
   - open Atlas with the website using full path:
     - `open -a "/Applications/ChatGPT Atlas.app" "<website>"`
   - position Atlas window to right half via AppleScript.
+- After pushing changes, agents should always run an `atlas left` open on at least one file URL from the merged/pushed PR to visually verify remote availability.
 
 ## Current Status
 
