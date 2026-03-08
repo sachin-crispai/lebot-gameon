@@ -51,3 +51,31 @@ Useful checks after start:
   - `northflank get service logs --project hackathon --service lebot-gameon-jupyter --lineLimit 120 --output json`
 - `northflank phase4 endpoint`
   - `curl -I -s https://jupyter--lebot-gameon-jupyter--k5y6xz4rg776.code.run`
+
+## Phase 4 Exception Notes (2026-03-08)
+
+Observed exceptions and repeatable actions:
+
+1. `getaddrinfo ENOTFOUND api.northflank.com`
+- Meaning: CLI call failed due to sandbox network restrictions.
+- Action: rerun with network-enabled/escalated execution.
+
+2. `zsh:1: read-only variable: status`
+- Meaning: polling script used reserved zsh variable name.
+- Action: run poll loop in `bash` and use variable `state`.
+
+3. `too many arguments for 'logs'. Expected 0 arguments but got 1`
+- Meaning: invalid `logs` flag usage.
+- Action: use `--lineLimit <n>` or `-f` (tail stream), not `--tail <n>`.
+
+4. Deployment update succeeded but override not applied
+- Symptoms:
+  - `northflank update service deployment` returns success
+  - `northflank get service deployment` remains `docker.configType: default`
+  - logs show repeated `Process terminated with exit code 0`
+  - endpoint stays `HTTP 503`
+- Action:
+  - treat as runtime-config blocker
+  - collect evidence logs
+  - apply command override in Northflank UI as next fallback path
+  - rerun status/log/endpoint checks

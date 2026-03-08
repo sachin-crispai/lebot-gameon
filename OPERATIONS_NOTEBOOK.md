@@ -109,7 +109,71 @@ These map to concrete commands/scripts.
 - `northflank phase4 endpoint`
   - `curl -I -s https://jupyter--lebot-gameon-jupyter--k5y6xz4rg776.code.run`
 
+## Northflank Phase 4 Exception Playbook
+
+Use this as the repeatable exception/debug sequence for `lebot-gameon-jupyter`.
+
+1. Confirm current state:
+   - `northflank get service --project hackathon --service lebot-gameon-jupyter --output json`
+   - `northflank get service deployment --project hackathon --service lebot-gameon-jupyter --output yaml`
+   - `northflank get service logs --project hackathon --service lebot-gameon-jupyter --lineLimit 120 --output json`
+   - `curl -I -s https://jupyter--lebot-gameon-jupyter--k5y6xz4rg776.code.run`
+
+2. Exception: network/DNS failure in sandboxed shell
+   - Error signature:
+     - `getaddrinfo ENOTFOUND api.northflank.com`
+   - Root cause:
+     - sandboxed command has restricted outbound DNS/network.
+   - Workaround used:
+     - rerun required `northflank` command with escalated permissions.
+
+3. Exception: zsh loop script failure while polling
+   - Error signature:
+     - `zsh:1: read-only variable: status`
+   - Root cause:
+     - `status` is reserved/read-only in zsh.
+   - Fix used:
+     - use `bash` polling script and variable `state` instead of `status`.
+
+4. Exception: invalid logs command usage
+   - Error signature:
+     - `too many arguments for 'logs'. Expected 0 arguments but got 1`
+   - Root cause:
+     - wrong CLI syntax (`--tail 80` treated as extra argument).
+   - Fix used:
+     - use `--lineLimit 80` (or `-f` for streaming) with:
+     - `northflank get service logs --project hackathon --service lebot-gameon-jupyter --lineLimit 120 --output json`
+
+5. Exception: deployment update reports success but runtime config unchanged
+   - Error signature:
+     - update command returns HTTP 200 / success
+     - `get service deployment` still shows `docker.configType: default`
+   - Root cause (observed):
+     - command/entrypoint override not persisted through current CLI update path for this service.
+   - Workaround used:
+     - captured full evidence and treated as platform/CLI behavior blocker:
+       - `phase4-service-deployment.yaml`
+       - `phase4-service-logs.json`
+       - `phase4-endpoint-head.log`
+   - Next repeatable step:
+     - open Northflank UI, edit deployment command there, then re-run phase4 status/log/endpoint checks.
+
+6. Exception: service appears deployed but endpoint stays unavailable
+   - Error signature:
+     - service status includes `COMPLETED`
+     - logs show `Process terminated with exit code 0` repeatedly
+     - endpoint returns `HTTP/2 503`
+   - Root cause:
+     - container process exits immediately; no long-running server bound to port 8888.
+   - Workaround used:
+     - documented as partial Phase 4 completion; do not mark runtime healthy until endpoint returns non-503.
+
+7. Evidence discipline (mandatory)
+   - Save each check output to `books/openenv-redbook/partners/northflank/40-evidence/logs/`.
+   - Comment issue and PR with blocker details and links to evidence files.
+
 ## Change Log
 
 - 2026-03-08: Added `skimread`, `atlasread`, `atlas left`, `atlas right`, and post-push verification rule.
 - 2026-03-08: Added best-practice baseline and accepted command patterns (GitHub tracking + Northflank operations).
+- 2026-03-08: Added Northflank Phase 4 exception/error playbook with root-cause and workaround steps.
