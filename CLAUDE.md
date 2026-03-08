@@ -54,6 +54,10 @@ uv pip install --python .venv/bin/python pypdf
 - Default doc/PDF reader is **Skim**.
 - If the user says `skimread <file>` (or asks to open a file in skim), use:
   - `open -a Skim <file>`
+- If the user says `atlasread <url>`, open the URL in Atlas:
+  - `open -a "ChatGPT Atlas.app" "<url>"`
+- If the user says `atlas left <website>`, open with full app path and place Atlas on left half.
+- If the user says `atlas right <website>`, open with full app path and place Atlas on right half.
 
 ## Architecture
 

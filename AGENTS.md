@@ -118,6 +118,16 @@ uv pip install --python .venv/bin/python pypdf
 - If the user says `skimread <file>` (or asks to "open in skim"), agents should run:
   - `open -a Skim <file>`
 - Use this for PDFs and other Skim-supported docs unless the user explicitly asks for a different app.
+- If the user says `atlasread <url>`, agents should open the URL in Atlas:
+  - `open -a "ChatGPT Atlas.app" "<url>"`
+- If the user says `atlas left <website>`, agents should:
+  - open Atlas with the website using full path:
+    - `open -a "/Applications/ChatGPT Atlas.app" "<website>"`
+  - position Atlas window to left half via AppleScript.
+- If the user says `atlas right <website>`, agents should:
+  - open Atlas with the website using full path:
+    - `open -a "/Applications/ChatGPT Atlas.app" "<website>"`
+  - position Atlas window to right half via AppleScript.
 
 ## Current Status
 

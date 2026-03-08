@@ -16,6 +16,13 @@ Requested source:
 2. Place exported files in this folder.
 3. Update this file with extracted deployment steps and resource links.
 
+## Archived PDF (Captured)
+
+- File: `Northflank Docs _ OpenEnv Hackathon.pdf`
+- Location: `books/openenv-redbook/partners/northflank/`
+- Provenance: generated from Atlas Browser using **Print -> Save as PDF**.
+- Purpose: preserve readable offline instructions from the Northflank Notion page.
+
 ## Fallback Northflank Docs
 
 - Docs root: https://northflank.com/docs
