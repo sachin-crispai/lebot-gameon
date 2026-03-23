@@ -56,11 +56,24 @@ uv pip install --python .venv/bin/python pypdf
 - Default doc/PDF reader is **Skim**.
 - If the user says `skimread <file>` (or asks to open a file in skim), use:
   - `open -a Skim <file>`
+- Named aliases: `THEBIBLE` = `books/openenv-redbook/openenv-redbook-a4.pdf`; `mastra` = `books/downloads/agents-redbook.pdf`. Resolve aliases before passing to any viewer command.
+- Alias resolution is case-insensitive, and new domain tags/aliases should be recorded in `OPERATIONS_NOTEBOOK.md`.
+- If the user says `skim left <file>`, open in Skim, snap to left half of screen, then apply view settings: two up continuous, displays page breaks, auto scales to fill.
+- If the user says `skim right <file>`, open in Skim, snap to right half of screen, then apply the same view settings.
+- If the user says `skim split <left-file> <right-file>`, open both docs in separate Skim windows for parallel reading, place one left and one right, and apply the same view settings to both.
+- If the user says `skim focus left` or `skim focus right`, bring the corresponding split-side Skim window to the foreground while keeping layout unchanged.
+- If the user says `test_skim`, run the full split validation: `mastra` left, `bible` right, separate windows (no tabs), standard view settings on both, with untab fallback if needed.
+- For all `skim*` workflows, keep documents in separate windows (not tabs) unless the user explicitly asks for tabs.
 - If the user says `atlasread <url>`, open the URL in Atlas:
   - `open -a "ChatGPT Atlas.app" "<url>"`
 - If the user says `atlas left <website>`, open with full app path and place Atlas on left half.
 - If the user says `atlas right <website>`, open with full app path and place Atlas on right half.
+- All viewer/browser open commands run immediately without in-chat confirmation prompts.
+- Explicitly: do not ask for confirmation before running any `skim*` command.
 - Post-push verification: always perform an `atlas left` open on at least one file URL that was part of the pushed/merged PR.
+- `sync_operations`: when the user says this, update `OPERATIONS_NOTEBOOK.md` and this file to reflect any new commands used in the session. See `OPERATIONS_NOTEBOOK.md` for full procedure.
+- `refresh_operations`: when the user says this, re-read `OPERATIONS_NOTEBOOK.md` and this file, summarize operational deltas vs `HEAD`, and confirm active aliases/command mappings before continuing.
+- `checkin`: synonym for "everything looks good". Runs sync_operations, commits changes, creates/comments on PR and issue, checks consistency, runs relevant tests. See `OPERATIONS_NOTEBOOK.md` for full procedure.
 
 ## Architecture
 

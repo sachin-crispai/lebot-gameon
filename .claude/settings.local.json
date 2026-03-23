@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(open:*)",
+      "Bash(osascript:*)",
+      "Bash(sleep:*)",
+      "Bash(awk:*)",
+      "Bash(git:*)"
+    ]
+  }
+}
